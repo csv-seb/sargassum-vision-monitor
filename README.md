@@ -20,7 +20,7 @@ The task is a multiclass, ordinal classification problem featuring five levels o
 - Split: Stratified sampling used to maintain label distribution across Training and Validation sets.
 
 ### Technical Implementation
-#### 1. Model Architectures
+#### Model Architectures
 Two distinct CNN architectures were benchmarked to find the balance between edge-deployment efficiency and high-accuracy classification:
 - MobileNetV2 (Baseline) - Efficiency for mobile devices.
 - EfficientNet-B2 (Final Model) - Higher robustness.
