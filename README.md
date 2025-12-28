@@ -40,7 +40,16 @@ Analysis of the heatmaps verified that the model correctly ignores "noise" (sky,
 
 <img width="950" height="465" alt="image" src="https://github.com/user-attachments/assets/a1290464-d1da-478e-a173-6331b9040369" />
  
+## 🔍 Model Interpretability & Error Analysis
 
+
+A key part of this project was validating **why** the model made its decisions. Using Grad-CAM, I compared high-confidence "Excesivo" predictions against lower-confidence edge cases to identify areas for future optimization.
+
+| **Case A: High-Confidence "Excesivo" (99.9%)** | **Case B: Complex Edge Case (31.1%)** |
+| :---: | :---: |
+| ![Clear Success](<img width="950" height="465" alt="sargazo" src="https://github.com/user-attachments/assets/cdd06794-6813-48f2-a1af-47b6b802a1b1" />) | ![Edge Case](<img width="950" height="465" alt="image" src="https://github.com/user-attachments/assets/a1290464-d1da-478e-a173-6331b9040369" />) |
+| **Observation:** The model shows near-perfect localization on dense sargassum mats, ignoring sky and clear water. | **Observation:** The model correctly identifies the intertidal zone but shows lower confidence due to textural similarities with rocky outcrops. |
+| **Verdict:** Highly reliable for automated alerting in high-density areas. | **Verdict:** Highlights a need for "hard negative" training on rocky shorelines to reduce bias. |
 
 ### Results & Output
 - submission.csv: Predictions generated for the Kaggle test set.
