@@ -1,3 +1,7 @@
+---
+layout: default
+title: Sargassum Classification Project
+---
 # Sargassum Influx Classification: An AI Approach to Environmental Monitoring
 
 ## Developed for the UNAM 'Macroentrenamiento en IA (MeIA 2025)' Kaggle Competition (June 2025)
