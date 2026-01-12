@@ -52,7 +52,8 @@ A key part of this project was validating **why** the model made its decisions. 
 - Visualization: Matplotlib, OpenCV, PIL
 - Platform: Google Colab (GPU-accelerated training)
 
-Author: Sebastian Méndez
+## Author 
+Sebastian Méndez Ramírez
 
 ## Acknowledgments
 This project was developed as part of a Kaggle competition during the 'MeIA 2025' intensive course at UNAM (June 2025). I would like to thank the instructional team for providing the initial sample code and the curated dataset used in this research.
